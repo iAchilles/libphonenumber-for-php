@@ -121,6 +121,7 @@ return array (
   'countryCode' => 7,
   'internationalPrefix' => '810',
   'preferredInternationalPrefix' => '8~10',
+  'preferredExtnPrefix' => ' доб. ',
   'nationalPrefix' => '8',
   'nationalPrefixForParsing' => '8',
   'sameMobileAndFixedLinePattern' => false,
