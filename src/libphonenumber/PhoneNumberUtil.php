@@ -425,7 +425,7 @@ class PhoneNumberUtil
     private static function initExtnPatterns()
     {
         // One-character symbols that can be used to indicate an extension.
-        $singleExtnSymbolsForMatching = "x\xEF\xBD\x98#\xEF\xBC\x83~\xEF\xBD\x9E";
+        $singleExtnSymbolsForMatching = "x\xEF\xBD\x98#\xEF\xBC\x83~\xEF\xBD\x9E\доб\\.";
         // For parsing, we are slightly more lenient in our interpretation than for matching. Here we
         // allow a "comma" as a possible extension indicator. When matching, this is hardly ever used to
         // indicate this.
